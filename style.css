@@ -229,3 +229,53 @@ footer {
   text-align: center;
   padding: 18px;
 }
+
+
+/* Project Cards */
+.project-card {
+    background: #ffffff;
+    padding: 24px;
+    margin: 20px 0;
+    border-radius: 14px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+.project-card h3 {
+    color: #2563eb;
+    margin-bottom: 12px;
+}
+
+.project-card p {
+    color: #475569;
+    line-height: 1.7;
+    margin-bottom: 12px;
+}
+
+.project-card a {
+    display: inline-block;
+    background: #2563eb;
+    color: #ffffff;
+    padding: 10px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 8px;
+}
+
+.project-card a:hover {
+    background: #1d4ed8;
+}
+
+/* Mobile-friendly project cards */
+@media (max-width: 600px) {
+    .project-card {
+        padding: 18px;
+        margin: 16px 0;
+    }
+}
